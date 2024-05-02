@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\PreparationFinal\\PreparationFinal.csproj": {}
+    "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\ProjetEval.csproj": {}
   },
   "projects": {
-    "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\PreparationFinal\\PreparationFinal.csproj": {
+    "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\ProjetEval.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\PreparationFinal\\PreparationFinal.csproj",
-        "projectName": "PreparationFinal",
-        "projectPath": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\PreparationFinal\\PreparationFinal.csproj",
+        "projectUniqueName": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\ProjetEval.csproj",
+        "projectName": "ProjetEval",
+        "projectPath": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\ProjetEval.csproj",
         "packagesPath": "C:\\Users\\steve\\.nuget\\packages\\",
-        "outputPath": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\PreparationFinal\\obj\\",
+        "outputPath": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
