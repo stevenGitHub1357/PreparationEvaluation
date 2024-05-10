@@ -1,6 +1,10 @@
-Cree projet mvc et web api:
+Connection base :
+	"ConnectionStrings": {
+		"DefaultConnection": "Host=localhost;Port=5432;Database=projettest_aspnetcore_cine;Username=postgres;Password=etu1889;",
+	}
+
+Cree projet mvc :
 	dotnet new mvc --name NomDuProjet
-	dotnet new webapi --name webApi --output ProjetEval/api
 
 Generation Model:
 	dotnet tool install --global dotnet-ef
