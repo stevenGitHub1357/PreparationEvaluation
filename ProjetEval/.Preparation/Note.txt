@@ -1,0 +1,31 @@
+Cree projet mvc et web api:
+	dotnet new mvc --name NomDuProjet
+	dotnet new webapi --name webApi --output ProjetEval/api
+
+Generation Model:
+	dotnet tool install --global dotnet-ef
+	dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL  --version 7.0.0
+	dotnet ef dbcontext scaffold Name=DefaultConnection Npgsql.EntityFrameworkCore.PostgreSQL -o ./Models/User --table profil --table utilisateur --table genre --context DbContextUser
+
+
+Generation Controllers:
+	dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 7.0.0
+	dotnet add package Microsoft.EntityFrameworkCore.Design --version 7.0.0
+	dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 7.0.0
+
+	dotnet tool install --global dotnet-aspnet-codegenerator --version 7.0.0
+	dotnet tool update --global dotnet-aspnet-codegenerator --version 7.0.0
+
+//Api
+	dotnet aspnet-codegenerator controller -name ProfilController -async -api -m ProjetEval.Models.User.Profil -dc ProjetEval.Models.User.DbContextUserxt -outDir Controllers
+//mvc
+	dotnet aspnet-codegenerator controller -name ProfilController --model ProjetEval.Models.User.Profil --dataContext  ProjetEval.Models.User.DbContextUserxt --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
+
+
+Generation https port:
+	dotnet dev-certs https --list
+	dotnet dev-certs https --install
+	dotnet dev-certs https --trust
+	dotnet run --launch-profile https  
+
+
