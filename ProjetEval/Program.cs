@@ -1,13 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using ProjetEval.Models.User;
-
+using ProjetEval.Models.TestUser;
 
 var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddDbContext<DbContextUser>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+builder.Services.AddDbContext<DbContextUserTest>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DbContextUserTest' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

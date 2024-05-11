@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ProjetEval.Models.User;
+using ProjetEval.Models.TestUser;
 
 namespace ProjetEval.Controllers
 {
     public class ProfilsController : Controller
     {
-        private readonly DbContextUser _context;
+        private readonly DbContextUserTest _context;
 
-        public ProfilsController(DbContextUser context)
+        public ProfilsController(DbContextUserTest context)
         {
             _context = context;
         }
@@ -21,13 +21,15 @@ namespace ProjetEval.Controllers
         // GET: Profils
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Profil.ToListAsync());
+              return _context.Profil != null ? 
+                          View(await _context.Profil.Include(p => p.IdgenreNavigation).ToListAsync()) :
+                          Problem("Entity set 'DbContextUserTest.Profil'  is null.");
         }
 
         // GET: Profils/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
+            if (id == null || _context.Profil == null)
             {
                 return NotFound();
             }
@@ -67,7 +69,7 @@ namespace ProjetEval.Controllers
         // GET: Profils/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
+            if (id == null || _context.Profil == null)
             {
                 return NotFound();
             }
@@ -118,7 +120,7 @@ namespace ProjetEval.Controllers
         // GET: Profils/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
+            if (id == null || _context.Profil == null)
             {
                 return NotFound();
             }
@@ -138,15 +140,23 @@ namespace ProjetEval.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            if (_context.Profil == null)
+            {
+                return Problem("Entity set 'DbContextUserTest.Profil'  is null.");
+            }
             var profil = await _context.Profil.FindAsync(id);
-            _context.Profil.Remove(profil);
+            if (profil != null)
+            {
+                _context.Profil.Remove(profil);
+            }
+            
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool ProfilExists(int id)
         {
-            return _context.Profil.Any(e => e.Id == id);
+          return (_context.Profil?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

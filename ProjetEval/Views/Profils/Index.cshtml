@@ -1,4 +1,4 @@
-@model IEnumerable<ProjetEval.Models.User.Profil>
+@model IEnumerable<ProjetEval.Models.TestUser.Profil>
 
 @{
     ViewData["Title"] = "Index";
@@ -25,6 +25,9 @@
                 @Html.DisplayNameFor(model => model.Idgenre)
             </th>
             <th>
+                Genre
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Max)
             </th>
             <th>
@@ -47,6 +50,16 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Idgenre)
+            </td>
+            <td>
+                @if (item.IdgenreNavigation != null)
+                {
+                    @Html.DisplayFor(modelItem => item.IdgenreNavigation.Nom)
+                }
+                else
+                {
+                    @* Null *@
+                }
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Max)
