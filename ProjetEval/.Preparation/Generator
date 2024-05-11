@@ -1,0 +1,9 @@
+- Installation de certificat
+    dotnet dev-certs https --list
+	dotnet dev-certs https --install
+	dotnet dev-certs https --trust
+	dotnet run --launch-profile https  
+
+- Generation Controlleur HelloWorld
+
+- 
