@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetEval
 build_property.RootNamespace = ProjetEval
-build_property.ProjectDir = d:\ITU\S6\Mr_Rojo\Projet\PreparationEvaluation\ProjetEval\
+build_property.ProjectDir = D:\ITU\S6\Mr_Rojo\Projet\PreparationEvaluation\ProjetEval\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\ITU\S6\Mr_Rojo\Projet\PreparationEvaluation\ProjetEval
+build_property.MSBuildProjectDirectory = D:\ITU\S6\Mr_Rojo\Projet\PreparationEvaluation\ProjetEval
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/HelloWorld/WelcomeHome.cshtml]
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/HelloWorld/WelcomeHome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxXZWxjb21lSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Home/Index.cshtml]
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Home/Privacy.cshtml]
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Movies/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXENyZWF0ZS5jc2h0bWw=
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Profils/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Movies/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERlbGV0ZS5jc2h0bWw=
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Profils/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Movies/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXERldGFpbHMuY3NodG1s
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Profils/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Movies/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEVkaXQuY3NodG1s
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Profils/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Movies/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVzXEluZGV4LmNzaHRtbA==
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Profils/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Shared/Error.cshtml]
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/_ViewImports.cshtml]
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/_ViewStart.cshtml]
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Shared/_Layout.cshtml]
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dqm1s8khog

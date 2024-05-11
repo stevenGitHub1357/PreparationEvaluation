@@ -5,27 +5,26 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Data;
-using ProjetEval.Models;
+using ProjetEval.Models.User;
 
 namespace ProjetEval.Controllers
 {
-    public class MoviesController : Controller
+    public class ProfilsController : Controller
     {
-        private readonly MvcMovieContext _context;
+        private readonly DbContextUser _context;
 
-        public MoviesController(MvcMovieContext context)
+        public ProfilsController(DbContextUser context)
         {
             _context = context;
         }
 
-        // GET: Movies
+        // GET: Profils
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Movie.ToListAsync());
+            return View(await _context.Profil.ToListAsync());
         }
 
-        // GET: Movies/Details/5
+        // GET: Profils/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,39 +32,39 @@ namespace ProjetEval.Controllers
                 return NotFound();
             }
 
-            var movie = await _context.Movie
+            var profil = await _context.Profil
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (movie == null)
+            if (profil == null)
             {
                 return NotFound();
             }
 
-            return View(movie);
+            return View(profil);
         }
 
-        // GET: Movies/Create
+        // GET: Profils/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Movies/Create
+        // POST: Profils/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
+        public async Task<IActionResult> Create([Bind("Id,Nom,Prenom,Naissance,Idgenre,Max,Min")] Profil profil)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(movie);
+                _context.Add(profil);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(movie);
+            return View(profil);
         }
 
-        // GET: Movies/Edit/5
+        // GET: Profils/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -73,22 +72,22 @@ namespace ProjetEval.Controllers
                 return NotFound();
             }
 
-            var movie = await _context.Movie.FindAsync(id);
-            if (movie == null)
+            var profil = await _context.Profil.FindAsync(id);
+            if (profil == null)
             {
                 return NotFound();
             }
-            return View(movie);
+            return View(profil);
         }
 
-        // POST: Movies/Edit/5
+        // POST: Profils/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price")] Movie movie)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nom,Prenom,Naissance,Idgenre,Max,Min")] Profil profil)
         {
-            if (id != movie.Id)
+            if (id != profil.Id)
             {
                 return NotFound();
             }
@@ -97,12 +96,12 @@ namespace ProjetEval.Controllers
             {
                 try
                 {
-                    _context.Update(movie);
+                    _context.Update(profil);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!MovieExists(movie.Id))
+                    if (!ProfilExists(profil.Id))
                     {
                         return NotFound();
                     }
@@ -113,10 +112,10 @@ namespace ProjetEval.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(movie);
+            return View(profil);
         }
 
-        // GET: Movies/Delete/5
+        // GET: Profils/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -124,30 +123,30 @@ namespace ProjetEval.Controllers
                 return NotFound();
             }
 
-            var movie = await _context.Movie
+            var profil = await _context.Profil
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (movie == null)
+            if (profil == null)
             {
                 return NotFound();
             }
 
-            return View(movie);
+            return View(profil);
         }
 
-        // POST: Movies/Delete/5
+        // POST: Profils/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var movie = await _context.Movie.FindAsync(id);
-            _context.Movie.Remove(movie);
+            var profil = await _context.Profil.FindAsync(id);
+            _context.Profil.Remove(profil);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool MovieExists(int id)
+        private bool ProfilExists(int id)
         {
-            return _context.Movie.Any(e => e.Id == id);
+            return _context.Profil.Any(e => e.Id == id);
         }
     }
 }

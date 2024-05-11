@@ -26,11 +26,10 @@
     dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.0.0
 
 - Generation modele
-    dotnet ef dbcontext scaffold Name=DefaultConnection Npgsql.EntityFrameworkCore.PostgreSQL -o ./Models/User --table profil
+    dotnet ef dbcontext scaffold Name=DefaultConnection Npgsql.EntityFrameworkCore.PostgreSQL -o ./Models/User --table profil --context DbContextUser
 
 - Generation controller
- dotnet aspnet-codegenerator controller -name MoviesController -m Movie -dc Data.MvcMovieContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
+    dotnet aspnet-codegenerator controller -name ProfilsController -m Profil -dc Models.User.DbContextUser --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
 
-    dotnet aspnet-codegenerator controller -name ProfilController --model ProjetEval.Models.Movie --dataContext  ProjetEval.Models.Movie.DbContextMoviext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
-
-
+    -Delete Data(Folder)
+    -Program ConnectTo : DefaultConnection
