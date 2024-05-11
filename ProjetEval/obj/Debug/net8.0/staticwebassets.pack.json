@@ -5,12 +5,272 @@
       "PackagePath": "staticwebassets\\ProjetEval.bundle.scp.css"
     },
     {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\css\\cs-skin-elastic.css",
+      "PackagePath": "staticwebassets\\assets\\css\\cs-skin-elastic.css"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\css\\lib\\chosen\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\assets\\css\\lib\\chosen\\chosen-sprite.png"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\css\\lib\\chosen\\chosen-sprite@2x.png",
+      "PackagePath": "staticwebassets\\assets\\css\\lib\\chosen\\chosen-sprite@2x.png"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\css\\lib\\chosen\\chosen.css",
+      "PackagePath": "staticwebassets\\assets\\css\\lib\\chosen\\chosen.css"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\css\\lib\\chosen\\chosen.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\lib\\chosen\\chosen.min.css"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\css\\lib\\datatable\\buttons.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\lib\\datatable\\buttons.bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\css\\lib\\datatable\\buttons.dataTables.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\lib\\datatable\\buttons.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\css\\lib\\datatable\\dataTables.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\lib\\datatable\\dataTables.bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\css\\lib\\vector-map\\jqvmap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\lib\\vector-map\\jqvmap.min.css"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\fonts\\icomoon\\icomoon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\icomoon.eot"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\fonts\\icomoon\\icomoon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\icomoon.svg"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\fonts\\icomoon\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\icomoon.ttf"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\fonts\\icomoon\\icomoon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\icomoon.woff"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\fonts\\icomoon\\index.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\index.html"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\init\\chartjs-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\init\\chartjs-init.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\init\\datatables-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\init\\datatables-init.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\init\\flot-chart-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\init\\flot-chart-init.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\init\\fullcalendar-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\init\\fullcalendar-init.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\init\\gmap-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\init\\gmap-init.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\init\\peitychart-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\init\\peitychart-init.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\init\\vector-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\init\\vector-init.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\init\\weather-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\init\\weather-init.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\chosen\\chosen.jquery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\chosen\\chosen.jquery.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\chosen\\chosen.jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\chosen\\chosen.jquery.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\chosen\\chosen.proto.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\chosen\\chosen.proto.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\chosen\\chosen.proto.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\chosen\\chosen.proto.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\buttons.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\buttons.bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\buttons.flash.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\buttons.html5.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\buttons.print.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\datatables.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\datatables.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\jquery-1.12.4.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\jquery-1.12.4.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\jszip.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\jszip.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\pdfmake.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\data-table\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\data-table\\vfs_fonts.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\gmap\\gmapApi.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\gmap\\gmapApi.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\gmap\\gmaps.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\gmap\\gmaps.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\lib\\gmap\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lib\\gmap\\gmaps.min.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vmap.sampledata.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\js\\widgets.js",
+      "PackagePath": "staticwebassets\\assets\\js\\widgets.js"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\scss\\style.css",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.css"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\scss\\style.css.map",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.css.map"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\assets\\scss\\style.scss"
+    },
+    {
       "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\.gitignore",
+      "PackagePath": "staticwebassets\\images\\.gitignore"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\admin.jpg",
+      "PackagePath": "staticwebassets\\images\\admin.jpg"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\avatar\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\1.jpg"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\avatar\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\2.jpg"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\avatar\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\3.jpg"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\avatar\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\4.jpg"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\avatar\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\5.jpg"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\avatar\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\6.jpg"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\avatar\\64-1.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\64-1.jpg"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\avatar\\64-2.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar\\64-2.jpg"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\logo.psd",
+      "PackagePath": "staticwebassets\\images\\logo.psd"
+    },
+    {
+      "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\logo2.png"
     },
     {
       "Id": "D:\\ITU\\S6\\Mr_Rojo\\Projet\\PreparationEvaluation\\ProjetEval\\wwwroot\\js\\site.js",
