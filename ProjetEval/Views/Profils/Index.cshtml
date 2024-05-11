@@ -1,0 +1,86 @@
+@model IEnumerable<ProjetEval.Models.TestUser.Profil>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prenom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Naissance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Idgenre)
+            </th>
+            <th>
+                Genre
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Max)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Min)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prenom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Naissance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Idgenre)
+            </td>
+            <td>
+                @if (item.IdgenreNavigation != null)
+                {
+                    @Html.DisplayFor(modelItem => item.IdgenreNavigation.Nom)
+                }
+                else
+                {
+                    @* Null *@
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Max)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Min)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<form asp-action="ExportPdf" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="directory">Sélectionnez un dossier :</label>
+        <input type="text" id="directory" name="filePath" webkitdirectory directory multiple class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Exporter et Retourner à l'Index</button>
+</form>

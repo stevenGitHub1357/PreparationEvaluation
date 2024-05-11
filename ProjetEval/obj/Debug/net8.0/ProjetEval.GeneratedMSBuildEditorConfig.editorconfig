@@ -16,12 +16,56 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ITU\S6\Mr_Rojo\Projet\PreparationEvaluation\ProjetEval
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Genre/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Genre/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Genre/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Genre/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Genre/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/HelloWorld/WelcomeHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxXZWxjb21lSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Profils/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Profils/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Profils/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Profils/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Profils/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ITU/S6/Mr_Rojo/Projet/PreparationEvaluation/ProjetEval/Views/Shared/Error.cshtml]

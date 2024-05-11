@@ -1,0 +1,48 @@
+- Installation de certificat
+    dotnet dev-certs https --list
+	dotnet dev-certs https --install
+	dotnet dev-certs https --trust
+	dotnet run --launch-profile https  
+
+- HelloWorld
+    Creation Test Controlleur 
+    Creation Test View 
+
+- Connection base :
+	"ConnectionStrings": {
+		"DefaultConnection": "Host=localhost;Port=5432;Database=projettest_aspnetcore_cine;Username=postgres;Password=etu1889;"
+	}
+
+- Package
+    dotnet tool uninstall --global dotnet-aspnet-codegenerator
+    dotnet tool install --global dotnet-aspnet-codegenerator
+    dotnet tool uninstall --global dotnet-ef
+    dotnet tool install --global dotnet-ef --version 7.0.0
+    dotnet add package Microsoft.EntityFrameworkCore.Design --version 7.0.0
+    dotnet add package Microsoft.EntityFrameworkCore.SQLite --version 7.0.0
+    dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 7.0.0
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 7.0.0
+    dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL  --version 7.0.0
+    dotnet add package Microsoft.EntityFrameworkCore.Tools --version 7.0.0
+
+- Generation modele
+    dotnet ef dbcontext scaffold Name=DefaultConnection Npgsql.EntityFrameworkCore.PostgreSQL -o ./Models/TestUser --table profil --table utilisateur --table genre --context DbContextUserTest
+
+    dotnet ef dbcontext scaffold Name=DefaultConnection Npgsql.EntityFrameworkCore.PostgreSQL -o ./Models/User --table profil --context DbContextUser
+
+- Generation controller
+    dotnet aspnet-codegenerator controller -name ProfilsController -m Profil -dc Models.User.DbContextUser --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
+
+    -Delete Data(Folder)
+    -Program ConnectTo : DefaultConnection
+    -UseNpgSql
+    -ModelsName In Context without "s"
+
+- Pdf
+    dotnet add package itext7
+    dotnet add package BouncyCastle
+
+- Csv
+    dotnet add package CsvHelper
+
+
