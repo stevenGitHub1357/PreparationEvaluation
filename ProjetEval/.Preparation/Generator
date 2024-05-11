@@ -4,6 +4,33 @@
 	dotnet dev-certs https --trust
 	dotnet run --launch-profile https  
 
-- Generation Controlleur HelloWorld
+- HelloWorld
+    Creation Test Controlleur 
+    Creation Test View 
 
-- 
+- Connection base :
+	"ConnectionStrings": {
+		"DefaultConnection": "Host=localhost;Port=5432;Database=projettest_aspnetcore_cine;Username=postgres;Password=etu1889;"
+	}
+
+- Package
+    dotnet tool uninstall --global dotnet-aspnet-codegenerator
+    dotnet tool install --global dotnet-aspnet-codegenerator
+    dotnet tool uninstall --global dotnet-ef
+    dotnet tool install --global dotnet-ef --version 6.0.0
+    dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.0
+    dotnet add package Microsoft.EntityFrameworkCore.SQLite --version 6.0.0
+    dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 6.0.0
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0
+    dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL  --version 6.0.0
+    dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.0.0
+
+- Generation modele
+    dotnet ef dbcontext scaffold Name=DefaultConnection Npgsql.EntityFrameworkCore.PostgreSQL -o ./Models/User --table profil
+
+- Generation controller
+ dotnet aspnet-codegenerator controller -name MoviesController -m Movie -dc Data.MvcMovieContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
+
+    dotnet aspnet-codegenerator controller -name ProfilController --model ProjetEval.Models.Movie --dataContext  ProjetEval.Models.Movie.DbContextMoviext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries
+
+
